@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <style>
+      body {
+        background-color: black;
+      }
+    </style>
   </head>
   <body>
-    <h1 id="header"></h1>
-<div id="evermart-upsell-trigger-decline" primary-color="#BD10E0">Testando</div>
-   
+    <div id="evermart-upsell-button-div" primary-color="#BD10E0"></div>
+    <script src="https://checkout-prd-api.mycheckout.com.br/api/v1/upsell/upsell.min.js"></script>
     <script>
-        window.document.getElementById('evermart-upsell-trigger-decline').style.color = 'red'
+      document.getElementById("evermart-upsell-trigger-decline").style.color =
+        "white";
     </script>
-    <script src="src/script.js"></script>
   </body>
 </html>
